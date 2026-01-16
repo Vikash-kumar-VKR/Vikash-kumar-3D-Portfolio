@@ -1,0 +1,443 @@
+import GithubIcon from "../public/assets/icons/github.svg";
+import LinkedInIcon from "../public/assets/icons/linkedin.svg";
+import XIcon from "../public/assets/icons/x.svg";
+import InstagramIcon from "../public/assets/icons/instagram.svg";
+import FrontendIcon from "../public/assets/icons/frontend.svg";
+import LeaderShipIcon from "../public/assets/icons/leadership.svg";
+import ProblemSolvingIcon from "../public/assets/icons/problem-solving.svg";
+import FreelancerIcon from "../public/assets/icons/freelance.svg";
+import BackendIcon from "../public/assets/icons/backend.svg";
+import FullStackIcon from "../public/assets/icons/full-stack.svg";
+
+const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Software Developer",
+    icon: <FullStackIcon />,
+  },
+  {
+    title: "Frontend Developer",
+    icon: <FrontendIcon />,
+  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: <BackendIcon />,
+  // },
+  {
+    title: "Problem Solving",
+    icon: <ProblemSolvingIcon />,
+  },
+  {
+    title: "Freelancer",
+    icon: <FreelancerIcon />,
+  },
+  {
+    title: "Leadership",
+    icon: <LeaderShipIcon />,
+  },
+];
+
+const technologies = {
+  languages: [
+    {
+      name: "HTML5",
+      icon: "/assets/tech/html5.svg",
+      link: "https://html.spec.whatwg.org/multipage/",
+    },
+    {
+      name: "CSS3",
+      icon: "/assets/tech/css3.svg",
+      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+    },
+    {
+      name: "JavaScript",
+      icon: "/assets/tech/javascript.svg",
+      link: "https://262.ecma-international.org/",
+    },
+   
+    {
+      name: "C",
+      icon: "/assets/tech/c.svg",
+      link: "https://en.cppreference.com/w/c",
+    },
+    
+    {
+      name: "Python",
+      icon: "/assets/tech/python.svg",
+      link: "https://www.python.org/",
+    },
+    {
+      name: "C++",
+      icon: "/assets/tech/cPlus.png",
+      link: "https://isocpp.org/",
+    },
+    
+  ],
+  frameworks: [
+    {
+      name: "Next.js",
+      icon: "/assets/tech/nextjs.svg",
+      link: "https://nextjs.org/",
+    },
+    {
+      name: "TailwindCSS",
+      icon: "/assets/tech/tailwindcss.svg",
+      link: "https://tailwindcss.com/",
+    },
+    {
+      name: "Express.js",
+      icon: "/assets/tech/expressjs.png",
+      link: "https://expressjs.com/",
+    },
+    {
+      name: "Flutter",
+      icon: "/assets/tech/flutter.svg",
+      link: "https://flutter.dev/",
+    },
+  ],
+  libraries: [
+    {
+      name: "React",
+      icon: "/assets/tech/react.svg",
+      link: "https://react.dev/",
+    },
+    {
+      name: "Three.js",
+      icon: "/assets/tech/threejs.svg",
+      link: "https://threejs.org/",
+    },
+    {
+      name: "Styled-Components",
+      icon: "/assets/tech/styled-components.png",
+      link: "https://styled-components.com/",
+    },
+    {
+      name: "Framer-motion",
+      icon: "/assets/tech/framer.svg",
+      link: "https://www.framer.com/motion/",
+    },
+    
+    {
+      name: "Redux/Redux-toolkit",
+      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+      link: "https://redux.js.org",
+    },
+    {
+      name: "NextAuth.js",
+      icon: "/assets/tech/nextauthjs.png",
+      link: "https://next-auth.js.org/",
+    },
+   
+  ],
+  tools: [
+    {
+      name: "Git",
+      icon: "/assets/tech/git.svg",
+      link: "https://git-scm.com/",
+    },
+    {
+      name: "Github",
+      icon: "/assets/icons/github.svg",
+      link: "https://github.com/",
+    },
+    {
+      name: "C++",
+      icon: "/assets/tech/cPlus.png",
+      link: "https://isocpp.org/",
+    },
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  environments: [
+    {
+      name: "Node.js",
+      icon: "/assets/tech/nodejs.svg",
+      link: "https://nodejs.org/en",
+    },
+  ],
+  databases: [
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "/assets/tech/postgresql.png",
+      link: "https://www.postgresql.org",
+    },
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+   
+  ],
+};
+
+
+const experiences = [
+  {
+  title: "Full Stack Developer",
+  company_name: "Ajeevak Nidhi Pvt. Ltd.",
+  icon: "/assets/company/gdsc-logo.svg",
+  iconBg: "#E6DEDD",
+  date: "Dec 2025 - Present",
+  points: [
+    "Developing and maintaining full-stack web applications using React.js, Node.js, Express.js, and REST APIs.",
+    "Implemented JWT-based authentication and role-based access control to enhance application security.",
+    "Optimized frontend performance, reducing overall page load time by nearly 30%.",
+    "Converted internship performance into a full-time role through consistent delivery and ownership of features.",
+  ],
+},
+  {
+  title: "Full Stack Developer Intern",
+  company_name: "Cut Edge Technology Pvt. Ltd.",
+   icon: "/assets/company/curowell-logo.svg",
+  iconBg: "#E6DEDD", 
+  date: "Sep 2025 - Nov 2025",
+  points: [
+    "Built responsive and user-friendly web pages using HTML, CSS, and JavaScript.",
+    "Implemented basic form validation and UI interaction logic to improve user experience.",
+    "Worked closely with senior developers to understand real-world development workflows.",
+    "Successfully completed internship with hands-on industry experience and certification.",
+  ],
+},  
+  {
+  title: "Freelance Full Stack Developer",
+  company_name: "Digital Wave Studio",
+  icon: "/assets/company/drdo-cabs.png",
+  iconBg: "#E6DEDD",
+  date: "2024 - Present",
+  points: [
+    "Providing freelance web development services including modern websites, branding, and digital solutions.",
+    "Developed scalable and responsive websites using React.js, Node.js, and modern UI practices.",
+    "Worked with clients to transform ideas into functional, business-ready digital products.",
+    "Focused on clean design, performance optimization, and measurable results for clients.",
+  ],
+},
+
+ {
+  title: "MERN Stack Developer",
+  company_name: "Personal Projects",
+  icon: "/assets/company/drdo-cabs.png",
+  iconBg: "#E6DEDD",
+  date: "2023 - Present",
+  points: [
+    "Developed a Library Management System using React.js, Node.js, MongoDB, Redux, and Context API.",
+    "Implemented authentication, OTP-based password recovery, and Cloudinary image uploads.",
+    "Built full CRUD functionality with secure and scalable REST APIs.",
+    "Deployed frontend on Netlify and backend on Render with focus on clean UI and production-ready code.",
+  ],
+}
+
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const projects = [
+  {
+    name: "QuickEdit: AI-Powered Image & Video Editor",
+    description:
+      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image:
+      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
+    source_code_link: "https://github.com/Vikash-kumar-VKR",
+    deployed_link: "https://quick-edit-app.vercel.app",
+  },
+  {
+    name: "FigPro", 
+    description:
+      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "fabricjs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "liveblocks",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/fig-pro.png",
+    source_code_link: "https://github.com/Vikash-kumar-VKR",
+    deployed_link: "https://fig-pro-github.vercel.app",
+  },
+ {
+    name: "Facility Management System",
+    description:
+      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/facility-manager.png",
+    source_code_link:
+      "https://github.com/Vikash-kumar-VKR/GT-Library-Management",
+    deployed_link:
+      "https://github.com/Vikash-kumar-VKR/GT-Library-Management",
+  },
+  ];
+
+const socials = [
+  {
+    id: "github",
+    icon: <GithubIcon />,
+    link: "https://github.com/Vikash-kumar-VKR",
+  },
+  {
+    id: "linkedin",
+    icon: <LinkedInIcon />,
+    link: "www.linkedin.com/in/vikash-kumar-gt",
+  },
+  {
+    id: "x",
+    icon: <XIcon />,
+    link: "https://twitter.com",
+  },
+  {
+    id: "instagram",
+    icon: <InstagramIcon />,
+    link: "https://www.instagram.com/vikash__kumar_900/?igsh=bGpudnF4c29sM3M0#",
+  },
+];
+
+const heroTexts = [
+  "React/Next.js developer",
+  500,
+  "Freelancer",
+  500,
+  "Full-Stack developer",
+  500,
+  "Frontend developer",
+  500,
+  "Backend developer",
+  500,
+  "Problem solver",
+  500,
+];
+
+export {
+  navLinks,
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socials,
+  heroTexts,
+};
