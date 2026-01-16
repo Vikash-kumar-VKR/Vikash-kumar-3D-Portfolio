@@ -46,7 +46,7 @@ const About = () => {
         and building high-performance web applications. 
         With a proven track record of transitioning from an intern to a full-time role, 
         I focus on creating secure, scalable, and user-centric solutions using tools like 
-        **Redux Toolkit, JWT, and Cloudinary**. I'm a quick learner who thrives in 
+        **Redux Toolkit, JWT, and Cloudinary**. I&apos;m a quick learner who thrives in 
         collaborative environments to solve complex real-world problems.
       </motion.p>
 
