@@ -76,10 +76,10 @@ function Hero({ loading, isMobile }) {
 
             className="mt-6 text-gray-200 text-base md:text-lg leading-relaxed"
           >
-            Hi, I'm a passionate <span className="text-cyan-400 font-semibold">BCA graduate</span> specializing in modern web development.
+            Hi, I&apos;m a passionate <span className="text-cyan-400 font-semibold">BCA graduate</span> specializing in modern web development.
             I build exceptional digital experiences using <span className="text-blue-400">React</span>,{' '}
             <span className="text-green-400">Node.js</span>, and cutting-edge technologies.
-            Let's turn your ideas into reality!
+            Let&apos;s turn your ideas into reality!
 
 
           </motion.p>
